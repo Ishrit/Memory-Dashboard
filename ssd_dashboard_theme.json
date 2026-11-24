@@ -1,0 +1,60 @@
+{
+  "name": "SSD Dashboard - Purple Tech",
+  "dataColors": [
+    "#6C2BD9",
+    "#00B4D8",
+    "#F72585",
+    "#FFB703",
+    "#2EC4B6",
+    "#8D99AE",
+    "#3A0CA3",
+    "#90E0EF"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2D1650",
+  "tableAccent": "#6C2BD9",
+  "good": "#2EC4B6",
+  "neutral": "#FFB703",
+  "bad": "#F72585",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E4DCF2" } },
+            "radius": 12
+          }
+        ],
+        "dropShadow": [
+          { "show": true }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#2D1650" } },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F3EFFA" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
